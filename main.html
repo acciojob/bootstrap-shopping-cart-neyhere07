@@ -1,16 +1,132 @@
+
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./shopping.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./shopping.css">
+        <title>Shopping</title>
+    </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <body>
+        <div class="container">
+			<div class="block-heading text-center">
+        <h1 class="text-primary">Shopping Cart</h1>
+        <p class="para">The customer is very important, the customer will <br>
+            be followed by the customer. Now as a urn, I have <br>
+            no right to be in possession of the property.</p>
+    </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXBob25lfGVufDB8fDB8fHww"
+                                alt="" class="img-fluid">
+                        </div>
+                        <div class="product-details">
+                            <h3 style="color: #3b99e0;"><a href="#">I am very sorry</a></h3>
+                            <p>
+                                Display:5 Inches <br>
+                                RAM:4 GB <br>
+                                Memory:32 GB
+                            </p>
+                        </div>
+                        <div class="product-quantity" style="text-align: center;">
+                            <label for="quantity">
+                                <h4>Quantity</h4>
+                            </label><br>
+                            <input type="text" id="quantity" style="width:50px">
+                        </div>
+                        <div class="product-price">
+                            <h2>$120</h2>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXBob25lfGVufDB8fDB8fHww"
+                                alt="" class="img-fluid">
+                        </div>
+                        <div class="product-details">
+                            <h3 style="color: #3b99e0;"><a href="#">I am very sorry</a></h3>
+                            <p>
+                                Display:5 Inches <br>
+                                RAM:4 GB <br>
+                                Memory:32 GB
+                            </p>
+                        </div>
+                        <div class="product-quantity" style="text-align: center;">
+                            <label for="quantity">
+                                <h4>Quantity</h4>
+                            </label><br>
+                            <input type="text" id="quantity" style="width:50px; text-align: center;">
+                        </div>
+                        <div class="product-price">
+                            <h2>$120</h2>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXBob25lfGVufDB8fDB8fHww"
+                                alt="" class="img-fluid">
+                        </div>
+                        <div class="product-details">
+                            <h3 style="color: #3b99e0;"><a href="#">I am very sorry</a></h3>
+                            <p>
+                                Display:5 Inches <br>
+                                RAM:4 GB <br>
+                                Memory:32 GB
+                            </p>
+                        </div>
+                        <div class="product-quantity" style="text-align: center;">
+                            <label for="quantity">
+                                <h4>Quantity</h4>
+                            </label><br>
+                            <input type="text" id="quantity" style="width:50px">
+                        </div>
+                        <div class="product-price">
+                            <h2>$120</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 border-top border-3 border-primary">
+                    <div class="summary">
+                        <h3 class="fs-1 py-5" style="text-align: center;">Summary</h3>
+                        <div class="summary-subtotal s-flex fs-3">
+                            <p>subtotal</p>
+                            <p>$360</p>
+                        </div>
+                        <hr>
+                        <div class="summary-discount s-flex fs-3">
+                            <p>Discount</p>
+                            <p>$0</p>
+                        </div>
+                        <hr>
+                        <div class="summary-shipping s-flex fs-3">
+                            <p>Shipping</p>
+                            <p>$0</p>
+                        </div>
+                        <hr>
+                        <div class="summary-total s-flex fs-3">
+                            <p>Total</p>
+                            <p>$360</p>
+                        </div>
+                        <hr>
+                        <div class="summary-button">
+                            <button type="button" class="btn btn-primary fs-2 px-5 py-2 ms-10"
+                                style="text-align: center;">checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
